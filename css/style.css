@@ -135,6 +135,7 @@ h1 {
 .waiting {
     height: 604px;
     background-color: #efefef;
+    padding: 85px 0 75px 0;
 }
 
 .waiting .waiting_awesome {
@@ -150,7 +151,7 @@ h1 {
     font-style: normal;
     letter-spacing: normal;
     line-height: normal;
-    margin-top: 85px;
+    /* margin-top: 85px; */
 }
 
 .waiting .waiting_text {
@@ -166,4 +167,14 @@ h1 {
     font-style: normal;
     letter-spacing: normal;
     line-height: normal;
+    margin-top: 17px;
+}
+
+.waiting .waiting_rect {
+    display: block;
+    margin: 0 auto;
+    margin-top: 18px;
+    width: 217px;
+    height: 4px;
+    background-color: #f9bf3b;
 }

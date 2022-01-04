@@ -131,3 +131,39 @@ h1 {
     margin: 0 auto;
     margin-top: 13px;
 }
+
+.waiting {
+    height: 604px;
+    background-color: #efefef;
+}
+
+.waiting .waiting_awesome {
+    color: #252525;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    text-transform: uppercase;
+    /* Text style for "Ч, то вас" */
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    margin-top: 85px;
+}
+
+.waiting .waiting_text {
+    color: #4a4a4a;
+    font-family: Roboto;
+    font-size: 23px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 20px;
+    text-align: center;
+    /* Text style for "2 бесплатн" */
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}

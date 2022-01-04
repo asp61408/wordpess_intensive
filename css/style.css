@@ -67,18 +67,23 @@ h1 {
 }
 
 .promo_text {
+    padding: 0 13px 0 13px;
     margin-top: 23px;
     color: #ffffff;
-    font-family: Roboto;
     font-size: 21px;
+    line-height: 28px;
+    text-align: center;
+    font-family: "Roboto - Light";
     font-weight: 300;
     font-style: normal;
     letter-spacing: normal;
-    line-height: 28px;
-    text-align: center;
-    /* Text style for "Ежедневно" */
-    font-family: "Roboto - Light";
-    font-weight: 300;
+    line-height: normal;
+}
+
+.promo_text span {
+    color: #f9bf3b;
+    font-family: "Roboto - Bold";
+    font-weight: 700;
     font-style: normal;
     letter-spacing: normal;
     line-height: normal;

@@ -178,3 +178,14 @@ h1 {
     height: 4px;
     background-color: #f9bf3b;
 }
+
+.waiting .waiting_img {
+    /* position: relative; */
+    display: inline-block;
+    margin: 0 auto;
+    /* vertical-align: top; */
+    /* width: 342px; */
+    height: 201px;
+    padding: 45px 65px;
+    /* padding-top: 45px; */
+}

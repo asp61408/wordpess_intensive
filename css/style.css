@@ -11,7 +11,7 @@
 
 .promo {
     height: 900px;
-    background: url(../img/bg/main_bg.png) center center/cover no-repeat;
+    background: url(../img/bg/2-layers.png) center center/cover no-repeat;
     padding: 39px 0 61px 0;
 }
 
@@ -35,6 +35,10 @@ h1 {
     margin-top: 53px;
 }
 
+h2.title {
+    margin-top: 30px;
+}
+
 .title {
     color: #f9bf3b;
     font-family: "Roboto - Black";
@@ -46,8 +50,7 @@ h1 {
     text-transform: uppercase;
     font-style: normal;
     letter-spacing: normal;
-    line-height: normal;
-    margin-top: 30px;
+    /* line-height: normal; */
 }
 
 .simple .title_big {
@@ -61,7 +64,7 @@ h1 {
     text-transform: uppercase;
     font-style: normal;
     letter-spacing: normal;
-    line-height: normal;
+    /* line-height: normal; */
     margin-top: 21px;
 }
 
@@ -107,25 +110,27 @@ h1 {
     line-height: 24px;
     text-align: center;
     text-transform: uppercase;
+    cursor: pointer;
 }
 
 .more {
+    margin-top: 73px;
+}
+
+.more .more_text {
     color: #ffffff;
     font-family: "Roboto - Thin";
     font-size: 15px;
     font-weight: 400;
     font-style: normal;
     letter-spacing: normal;
-    line-height: 24px;
     text-align: center;
     text-transform: uppercase;
     font-style: normal;
     letter-spacing: normal;
-    line-height: normal;
-    margin-top: 73px;
 }
 
-.more_down {
+.more_img {
     display: block;
     margin: 0 auto;
     margin-top: 13px;

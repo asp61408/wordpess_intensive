@@ -51,7 +51,6 @@ h1 {
 }
 
 .simple .title_big {
-    /* Style for "это просто" */
     color: #ffffff;
     font-family: "Roboto - Black";
     font-size: 80px;
@@ -147,11 +146,9 @@ h1 {
     letter-spacing: normal;
     text-align: center;
     text-transform: uppercase;
-    /* Text style for "Ч, то вас" */
     font-style: normal;
     letter-spacing: normal;
     line-height: normal;
-    /* margin-top: 85px; */
 }
 
 .waiting .waiting_text {
@@ -163,7 +160,6 @@ h1 {
     letter-spacing: normal;
     line-height: 20px;
     text-align: center;
-    /* Text style for "2 бесплатн" */
     font-style: normal;
     letter-spacing: normal;
     line-height: normal;
@@ -180,12 +176,28 @@ h1 {
 }
 
 .waiting .waiting_img {
-    /* position: relative; */
     display: inline-block;
     margin: 0 auto;
-    /* vertical-align: top; */
-    /* width: 342px; */
     height: 201px;
     padding: 45px 65px;
-    /* padding-top: 45px; */
+}
+
+.waiting_destr {
+    display: inline-block;
+    padding: 15px;
+    margin: 33px auto;
+    vertical-align: top;
+    color: #4a4a4a;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 21px;
+    text-align: center;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    width: 330px;
+    height: 77px;
 }
